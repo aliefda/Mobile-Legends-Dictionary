@@ -1,0 +1,3 @@
+rootProject.name = 'ml_dictionary'
+
+include ':app'
