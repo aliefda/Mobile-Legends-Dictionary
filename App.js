@@ -6,15 +6,16 @@
  * @flow
  */
 
-import React from 'react';
-import {CreateTabNavigator} from 'react-navigation';
+import React,{Component} from 'react';
+import {Platform,StyleSheet,Text,View} from 'react-native';
 import {TabNavigator} from 'react-navigation';
 
-import {Home} from './screen/Home';
-import {Heroes} from './screen/Heroes';
-import {Settings} from './screen/Setting';
+import {Home} from './Screen/Home';
+import {Heroes} from './Screen/Heroes';
+import {Settings} from './Screen/Setting';
 
-const Tab = TabNavigator({
+const Navbar = TabNavigator(
+{
   Home: {
     screen: Home,
   },
@@ -24,29 +25,33 @@ const Tab = TabNavigator({
   Settings: {
     screen: Settings,
   }
-},{
-  tabBarPosition: 'bottom',
-  swipeEnabled: true,
-  tabBarOptions:{
-    activeTintColor: '#f8f8f8',
-    activeBackgroundColor: '#b76e79',
-    inactiveTintColor: '#1234',
-    style:{
-      backgroundColor:'#b76e79',
-    },
+},
+{
+    tabBarPosition: 'bottom',
+    swipeEnabled: true,
+    tabBarOptions:
+    {
+      activeTintColor: '#1f4287',
+      activeBackgroundColor: '#071e3d',
+      inactiveTintColor: '#1234',
+      style:{
+        backgroundColor:'#1f4287',
+      },
 
-    labelStyle: {
+
+      labelStyle: {
       fontSize: 10,
-      color: '  black',
+      color: 'white',
       padding: 5,
+      }
     }
   }
-});
+);
 
 export default class App extends React.Component {
   render() {
     return (
-      <Tab/>
+      <Navbar/>
     );
   }
 }

@@ -6,9 +6,9 @@ export class Settings extends React.Component{
 	render(){
 		return(
 			<View style={styles.container}>
-                <Text style={salon.gan}>Alief Dwi Arjuna </Text>
-                <Text style={salon.gan}>XI RPL 2 </Text>
-                <Text style={salon.gan}>SMK Telkom Purwokerto </Text>
+                <Text style={salon.aku}>Alief Dwi Arjuna </Text>
+                <Text style={salon.aku}>XI RPL 2 </Text>
+                <Text style={salon.aku}>SMK Telkom Purwokerto </Text>
 				<Text style={{ marginBottom : 100}}></Text>
 			</View>
 			)
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#edc6c5',
+    backgroundColor: '#071e3d',
   }
 });
 const gambar = {
@@ -40,7 +40,7 @@ const warna = {
 	}
 }
 const salon = {
-	gan : {
+	aku : {
 		color : "#fff",
 		fontSize : 14,
 	}

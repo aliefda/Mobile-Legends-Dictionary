@@ -12,19 +12,18 @@ export class Home extends React.Component{
 
           <Image
            style={{alignItems: 'center', width: 350, height:200, marginBottom: 30, marginTop:30, }}
-            source={{uri: 'https://i.pinimg.com/originals/ab/a1/fd/aba1fd8d914fd3455b0c24437645ff95.png'}}
+            source={{uri: 'https://i.pinimg.com/originals/ab/a1/png'}}
           />
 
           <Text style={nbStyles.subtitle}>
             Let's play moba!!
           </Text>
           <Text style={nbStyles.subtitle}>
-            LET'S START!
+            LET'S START!          
           </Text>
 
-          <Button block style={nbStyles.btn}  onPress={() => this.props.navigation.navigate('Heroes')}
-          >
-            <Text style={{color: 'black'}}>Start</Text>
+          <Button block style={nbStyles.gan}  onPress={() => this.props.navigation.navigate('Heroes')}>
+            <Text style={{color: 'white'}}>START</Text>
           </Button>
         </View>
     );
@@ -36,17 +35,17 @@ const nbStyles = {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#edc6c5',
+        backgroundColor: '#071e3d',
     },
     subtitle: {
         textAlign: 'center',
         color: 'white'
     },
-    btn: {
+    gan: {
         alignItems: 'center',
         marginTop: 30,
         borderRadius: 25,
-        backgroundColor: '#b76e79',
+        backgroundColor: '#278ea5',
         marginVertical: 10,
         paddingVertical: 13,
     },

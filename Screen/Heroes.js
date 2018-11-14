@@ -6,7 +6,7 @@ export class Heroes extends React.Component{
   render(){
     return(
       <View style={nbStyles.subtitle}>
-          <Text style={{fontSize: 25, marginTop:20, textAlign: 'center', color: 'black', fontWeight : 'bold'}}>
+          <Text style={{fontSize: 25, marginTop:20, textAlign: 'center', color: 'white', fontWeight : 'bold'}}>
             HEROES
           </Text>
 
@@ -32,10 +32,10 @@ export class Heroes extends React.Component{
 
 const nbStyles = {
     subtitle: {
-      backgroundColor: '#edc6c5',
+      backgroundColor: '#071e3d',
 
     },
-    btn: {
+    gan: {
       alignItems: 'center',
       marginTop: 30,
       borderRadius: 25,
