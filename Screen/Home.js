@@ -12,7 +12,7 @@ export class Home extends React.Component{
 
           <Image
            style={{alignItems: 'center', width: 350, height:200, marginBottom: 30, marginTop:30, }}
-            source={{uri: 'https://i.pinimg.com/originals/ab/a1/png'}}
+            source={{uri: 'https://cdn-www.bluestacks.com/bs-images/mobile-legends_logo.png'}}
           />
 
           <Text style={nbStyles.subtitle}>

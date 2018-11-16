@@ -6,6 +6,9 @@ export class Settings extends React.Component{
 	render(){
 		return(
 			<View style={styles.container}>
+				<Image
+           		style={{alignItems: 'center', width: 80, height:80, marginBottom: 30, marginTop:30, }}
+           		source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa4Mwb3vD5hyV_y75txaczbHbdFNo_V_63fDEe8UxXKqRz9X9L'}}/>
                 <Text style={salon.aku}>Alief Dwi Arjuna </Text>
                 <Text style={salon.aku}>XI RPL 2 </Text>
                 <Text style={salon.aku}>SMK Telkom Purwokerto </Text>

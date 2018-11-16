@@ -12,17 +12,17 @@ export class Heroes extends React.Component{
 
           <Image
            style={{alignItems: 'center', width: 370, height:160, marginBottom: 5, marginTop:10, }}
-            source={{uri: 'http://cdn2.tstatic.net/bangka/foto/bank/images/change_20180424_155949.jpg'}}
+            source={{uri: 'https://www.tipspintar.com/wp-content/uploads/2017/09/hayabusa-mobile-legends.jpg'}}
           />
 
           <Image
            style={{alignItems: 'center', width: 370, height:160, marginBottom: 5, marginTop:1, }}
-            source={{uri: 'http://cdn2.tstatic.net/style/foto/bank/images/odette-mobile-legends_20170918_205245.jpg'}}
+            source={{uri: 'https://jurnalapps.co.id/assets/img/content/1508740204_1508427307_lancelot-feature-image.jpg'}}
           />
 
           <Image
            style={{alignItems: 'center', width: 370, height:160, marginBottom: 30, marginTop:1, }}
-            source={{uri: 'http://cdn2.tstatic.net/style/foto/bank/images/digger-mobile-legends_20171020_190204.jpg'}}
+            source={{uri: 'https://www.tipspintar.com/wp-content/uploads/2018/01/zhask-mobile-legends-1.jpg'}}
           />
 
         </View>
